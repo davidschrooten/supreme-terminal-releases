@@ -14,9 +14,9 @@ adb install -r supreme-terminal-v<version>.apk
 
 Check the download against the release's `SHA256SUMS`.
 
-## For tools
+## For the app
 
-Every release carries `latest.json`, at the stable URL `https://github.com/davidschrooten/supreme-terminal-releases/releases/latest/download/latest.json`:
+Every release carries `latest.json`, which the app reads to offer updates, at the stable URL `https://github.com/davidschrooten/supreme-terminal-releases/releases/latest/download/latest.json`:
 
 ```json
 {
